@@ -1,0 +1,9 @@
+diff a/HaywardMachineShopTimeSheet/Form1.cs b/HaywardMachineShopTimeSheet/Form1.cs	(rejected hunks)
+@@ -41,6 +41,7 @@
+         {
+             if(tbEmployeeName.Text == "")
+             {
++                MessageBox.Show("Sign in now to log information.");
+             }
+             else
+             {
