@@ -251,62 +251,70 @@
             this.lblEfficiency3 = new System.Windows.Forms.Label();
             this.btnSignOut = new System.Windows.Forms.Button();
             this.btnCancelEdit = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eDITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vIEWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fORMATToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tOOLSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hELPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tbWorkOrder
             // 
-            this.tbWorkOrder.Location = new System.Drawing.Point(12, 159);
+            this.tbWorkOrder.Location = new System.Drawing.Point(12, 180);
             this.tbWorkOrder.Name = "tbWorkOrder";
             this.tbWorkOrder.Size = new System.Drawing.Size(100, 20);
             this.tbWorkOrder.TabIndex = 2;
             // 
             // tbPart
             // 
-            this.tbPart.Location = new System.Drawing.Point(118, 159);
+            this.tbPart.Location = new System.Drawing.Point(118, 180);
             this.tbPart.Name = "tbPart";
             this.tbPart.Size = new System.Drawing.Size(100, 20);
             this.tbPart.TabIndex = 3;
             // 
             // tbOperation
             // 
-            this.tbOperation.Location = new System.Drawing.Point(280, 159);
+            this.tbOperation.Location = new System.Drawing.Point(280, 180);
             this.tbOperation.Name = "tbOperation";
             this.tbOperation.Size = new System.Drawing.Size(50, 20);
             this.tbOperation.TabIndex = 5;
             // 
             // tbStandardSetupHrs
             // 
-            this.tbStandardSetupHrs.Location = new System.Drawing.Point(658, 159);
+            this.tbStandardSetupHrs.Location = new System.Drawing.Point(658, 180);
             this.tbStandardSetupHrs.Name = "tbStandardSetupHrs";
             this.tbStandardSetupHrs.Size = new System.Drawing.Size(50, 20);
             this.tbStandardSetupHrs.TabIndex = 11;
             // 
             // tbStandardPPH
             // 
-            this.tbStandardPPH.Location = new System.Drawing.Point(434, 159);
+            this.tbStandardPPH.Location = new System.Drawing.Point(434, 180);
             this.tbStandardPPH.Name = "tbStandardPPH";
             this.tbStandardPPH.Size = new System.Drawing.Size(50, 20);
             this.tbStandardPPH.TabIndex = 7;
             // 
             // tbActualPPH
             // 
-            this.tbActualPPH.Location = new System.Drawing.Point(490, 159);
+            this.tbActualPPH.Location = new System.Drawing.Point(490, 180);
             this.tbActualPPH.Name = "tbActualPPH";
             this.tbActualPPH.Size = new System.Drawing.Size(50, 20);
             this.tbActualPPH.TabIndex = 8;
             // 
             // tbQuantity
             // 
-            this.tbQuantity.Location = new System.Drawing.Point(546, 159);
+            this.tbQuantity.Location = new System.Drawing.Point(546, 180);
             this.tbQuantity.Name = "tbQuantity";
             this.tbQuantity.Size = new System.Drawing.Size(50, 20);
             this.tbQuantity.TabIndex = 9;
             // 
             // tbScrap
             // 
-            this.tbScrap.Location = new System.Drawing.Point(602, 159);
+            this.tbScrap.Location = new System.Drawing.Point(602, 180);
             this.tbScrap.Name = "tbScrap";
             this.tbScrap.Size = new System.Drawing.Size(50, 20);
             this.tbScrap.TabIndex = 10;
@@ -315,7 +323,7 @@
             // 
             this.lblWorkOrder.AutoSize = true;
             this.lblWorkOrder.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblWorkOrder.Location = new System.Drawing.Point(17, 142);
+            this.lblWorkOrder.Location = new System.Drawing.Point(17, 164);
             this.lblWorkOrder.Name = "lblWorkOrder";
             this.lblWorkOrder.Size = new System.Drawing.Size(62, 13);
             this.lblWorkOrder.TabIndex = 26000;
@@ -325,7 +333,7 @@
             // 
             this.lblPart.AutoSize = true;
             this.lblPart.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPart.Location = new System.Drawing.Point(120, 142);
+            this.lblPart.Location = new System.Drawing.Point(120, 164);
             this.lblPart.Name = "lblPart";
             this.lblPart.Size = new System.Drawing.Size(26, 13);
             this.lblPart.TabIndex = 26000;
@@ -334,7 +342,7 @@
             // lblMachine
             // 
             this.lblMachine.AutoSize = true;
-            this.lblMachine.Location = new System.Drawing.Point(226, 142);
+            this.lblMachine.Location = new System.Drawing.Point(226, 164);
             this.lblMachine.Name = "lblMachine";
             this.lblMachine.Size = new System.Drawing.Size(48, 13);
             this.lblMachine.TabIndex = 26000;
@@ -343,7 +351,7 @@
             // lblOperation
             // 
             this.lblOperation.AutoSize = true;
-            this.lblOperation.Location = new System.Drawing.Point(280, 143);
+            this.lblOperation.Location = new System.Drawing.Point(280, 164);
             this.lblOperation.Name = "lblOperation";
             this.lblOperation.Size = new System.Drawing.Size(53, 13);
             this.lblOperation.TabIndex = 26000;
@@ -352,7 +360,7 @@
             // lblCode
             // 
             this.lblCode.AutoSize = true;
-            this.lblCode.Location = new System.Drawing.Point(338, 143);
+            this.lblCode.Location = new System.Drawing.Point(338, 164);
             this.lblCode.Name = "lblCode";
             this.lblCode.Size = new System.Drawing.Size(32, 13);
             this.lblCode.TabIndex = 26000;
@@ -363,7 +371,7 @@
             this.lblStandardPPH.AutoSize = true;
             this.lblStandardPPH.Cursor = System.Windows.Forms.Cursors.Default;
             this.lblStandardPPH.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStandardPPH.Location = new System.Drawing.Point(436, 142);
+            this.lblStandardPPH.Location = new System.Drawing.Point(436, 164);
             this.lblStandardPPH.Name = "lblStandardPPH";
             this.lblStandardPPH.Size = new System.Drawing.Size(50, 13);
             this.lblStandardPPH.TabIndex = 26000;
@@ -372,7 +380,7 @@
             // lblActualPPH
             // 
             this.lblActualPPH.AutoSize = true;
-            this.lblActualPPH.Location = new System.Drawing.Point(492, 142);
+            this.lblActualPPH.Location = new System.Drawing.Point(492, 164);
             this.lblActualPPH.Name = "lblActualPPH";
             this.lblActualPPH.Size = new System.Drawing.Size(50, 13);
             this.lblActualPPH.TabIndex = 26000;
@@ -381,7 +389,7 @@
             // lblQuantity
             // 
             this.lblQuantity.AutoSize = true;
-            this.lblQuantity.Location = new System.Drawing.Point(548, 142);
+            this.lblQuantity.Location = new System.Drawing.Point(548, 164);
             this.lblQuantity.Name = "lblQuantity";
             this.lblQuantity.Size = new System.Drawing.Size(46, 13);
             this.lblQuantity.TabIndex = 26000;
@@ -390,7 +398,7 @@
             // lblScrap
             // 
             this.lblScrap.AutoSize = true;
-            this.lblScrap.Location = new System.Drawing.Point(604, 143);
+            this.lblScrap.Location = new System.Drawing.Point(604, 164);
             this.lblScrap.Name = "lblScrap";
             this.lblScrap.Size = new System.Drawing.Size(35, 13);
             this.lblScrap.TabIndex = 26000;
@@ -414,7 +422,7 @@
             "502",
             "503",
             "721"});
-            this.cbMachine.Location = new System.Drawing.Point(224, 159);
+            this.cbMachine.Location = new System.Drawing.Point(224, 180);
             this.cbMachine.Name = "cbMachine";
             this.cbMachine.Size = new System.Drawing.Size(50, 21);
             this.cbMachine.TabIndex = 4;
@@ -426,7 +434,7 @@
             "S - Setup",
             "R - Running",
             "C - Completed"});
-            this.cbCode.Location = new System.Drawing.Point(336, 159);
+            this.cbCode.Location = new System.Drawing.Point(336, 180);
             this.cbCode.Name = "cbCode";
             this.cbCode.Size = new System.Drawing.Size(92, 21);
             this.cbCode.TabIndex = 6;
@@ -434,7 +442,7 @@
             // lblSetupHrs
             // 
             this.lblSetupHrs.AutoSize = true;
-            this.lblSetupHrs.Location = new System.Drawing.Point(655, 143);
+            this.lblSetupHrs.Location = new System.Drawing.Point(655, 164);
             this.lblSetupHrs.Name = "lblSetupHrs";
             this.lblSetupHrs.Size = new System.Drawing.Size(57, 13);
             this.lblSetupHrs.TabIndex = 26000;
@@ -443,7 +451,7 @@
             // lblTotalHrs
             // 
             this.lblTotalHrs.AutoSize = true;
-            this.lblTotalHrs.Location = new System.Drawing.Point(770, 143);
+            this.lblTotalHrs.Location = new System.Drawing.Point(770, 164);
             this.lblTotalHrs.Name = "lblTotalHrs";
             this.lblTotalHrs.Size = new System.Drawing.Size(53, 13);
             this.lblTotalHrs.TabIndex = 26000;
@@ -451,7 +459,7 @@
             // 
             // btnLog
             // 
-            this.btnLog.Location = new System.Drawing.Point(888, 159);
+            this.btnLog.Location = new System.Drawing.Point(888, 180);
             this.btnLog.Name = "btnLog";
             this.btnLog.Size = new System.Drawing.Size(75, 23);
             this.btnLog.TabIndex = 12;
@@ -461,7 +469,7 @@
             // 
             // tbEmployeeID
             // 
-            this.tbEmployeeID.Location = new System.Drawing.Point(483, 67);
+            this.tbEmployeeID.Location = new System.Drawing.Point(483, 88);
             this.tbEmployeeID.Name = "tbEmployeeID";
             this.tbEmployeeID.Size = new System.Drawing.Size(100, 20);
             this.tbEmployeeID.TabIndex = 1;
@@ -470,7 +478,7 @@
             // 
             this.lblEmployeeID.AutoSize = true;
             this.lblEmployeeID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmployeeID.Location = new System.Drawing.Point(399, 70);
+            this.lblEmployeeID.Location = new System.Drawing.Point(399, 91);
             this.lblEmployeeID.Name = "lblEmployeeID";
             this.lblEmployeeID.Size = new System.Drawing.Size(82, 13);
             this.lblEmployeeID.TabIndex = 26000;
@@ -480,7 +488,7 @@
             // 
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(12, 9);
+            this.lblTitle.Location = new System.Drawing.Point(12, 30);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(437, 42);
             this.lblTitle.TabIndex = 14;
@@ -490,7 +498,7 @@
             // 
             this.lblDivisionDepartment.AutoSize = true;
             this.lblDivisionDepartment.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDivisionDepartment.Location = new System.Drawing.Point(17, 70);
+            this.lblDivisionDepartment.Location = new System.Drawing.Point(17, 91);
             this.lblDivisionDepartment.Name = "lblDivisionDepartment";
             this.lblDivisionDepartment.Size = new System.Drawing.Size(127, 13);
             this.lblDivisionDepartment.TabIndex = 26000;
@@ -509,7 +517,7 @@
             "Hayward Pool - Tooling",
             "Hayward Pool - Assembly",
             "Hayward Pool - Shipping/Receiving"});
-            this.cbDivisionDepartment.Location = new System.Drawing.Point(150, 67);
+            this.cbDivisionDepartment.Location = new System.Drawing.Point(150, 88);
             this.cbDivisionDepartment.Name = "cbDivisionDepartment";
             this.cbDivisionDepartment.Size = new System.Drawing.Size(220, 21);
             this.cbDivisionDepartment.TabIndex = 0;
@@ -517,7 +525,7 @@
             // lblWorkOrder1
             // 
             this.lblWorkOrder1.AutoSize = true;
-            this.lblWorkOrder1.Location = new System.Drawing.Point(37, 192);
+            this.lblWorkOrder1.Location = new System.Drawing.Point(37, 213);
             this.lblWorkOrder1.Name = "lblWorkOrder1";
             this.lblWorkOrder1.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder1.TabIndex = 26000;
@@ -526,7 +534,7 @@
             // lblPart1
             // 
             this.lblPart1.AutoSize = true;
-            this.lblPart1.Location = new System.Drawing.Point(135, 192);
+            this.lblPart1.Location = new System.Drawing.Point(135, 213);
             this.lblPart1.Name = "lblPart1";
             this.lblPart1.Size = new System.Drawing.Size(0, 13);
             this.lblPart1.TabIndex = 26000;
@@ -535,7 +543,7 @@
             // lblMachine1
             // 
             this.lblMachine1.AutoSize = true;
-            this.lblMachine1.Location = new System.Drawing.Point(236, 192);
+            this.lblMachine1.Location = new System.Drawing.Point(236, 213);
             this.lblMachine1.Name = "lblMachine1";
             this.lblMachine1.Size = new System.Drawing.Size(0, 13);
             this.lblMachine1.TabIndex = 26000;
@@ -544,7 +552,7 @@
             // lblOperation1
             // 
             this.lblOperation1.AutoSize = true;
-            this.lblOperation1.Location = new System.Drawing.Point(295, 192);
+            this.lblOperation1.Location = new System.Drawing.Point(295, 213);
             this.lblOperation1.Name = "lblOperation1";
             this.lblOperation1.Size = new System.Drawing.Size(0, 13);
             this.lblOperation1.TabIndex = 26000;
@@ -553,7 +561,7 @@
             // lblCode1
             // 
             this.lblCode1.AutoSize = true;
-            this.lblCode1.Location = new System.Drawing.Point(345, 192);
+            this.lblCode1.Location = new System.Drawing.Point(345, 213);
             this.lblCode1.Name = "lblCode1";
             this.lblCode1.Size = new System.Drawing.Size(0, 13);
             this.lblCode1.TabIndex = 26000;
@@ -562,7 +570,7 @@
             // lblStandardPPH1
             // 
             this.lblStandardPPH1.AutoSize = true;
-            this.lblStandardPPH1.Location = new System.Drawing.Point(447, 192);
+            this.lblStandardPPH1.Location = new System.Drawing.Point(447, 213);
             this.lblStandardPPH1.Name = "lblStandardPPH1";
             this.lblStandardPPH1.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH1.TabIndex = 26000;
@@ -571,7 +579,7 @@
             // lblActualPPH1
             // 
             this.lblActualPPH1.AutoSize = true;
-            this.lblActualPPH1.Location = new System.Drawing.Point(503, 192);
+            this.lblActualPPH1.Location = new System.Drawing.Point(503, 213);
             this.lblActualPPH1.Name = "lblActualPPH1";
             this.lblActualPPH1.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH1.TabIndex = 26000;
@@ -580,7 +588,7 @@
             // lblQuantity1
             // 
             this.lblQuantity1.AutoSize = true;
-            this.lblQuantity1.Location = new System.Drawing.Point(558, 192);
+            this.lblQuantity1.Location = new System.Drawing.Point(558, 213);
             this.lblQuantity1.Name = "lblQuantity1";
             this.lblQuantity1.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity1.TabIndex = 26000;
@@ -589,7 +597,7 @@
             // lblScrap1
             // 
             this.lblScrap1.AutoSize = true;
-            this.lblScrap1.Location = new System.Drawing.Point(615, 192);
+            this.lblScrap1.Location = new System.Drawing.Point(615, 213);
             this.lblScrap1.Name = "lblScrap1";
             this.lblScrap1.Size = new System.Drawing.Size(0, 13);
             this.lblScrap1.TabIndex = 26000;
@@ -598,7 +606,7 @@
             // lblStandardSUHrs1
             // 
             this.lblStandardSUHrs1.AutoSize = true;
-            this.lblStandardSUHrs1.Location = new System.Drawing.Point(670, 192);
+            this.lblStandardSUHrs1.Location = new System.Drawing.Point(670, 213);
             this.lblStandardSUHrs1.Name = "lblStandardSUHrs1";
             this.lblStandardSUHrs1.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs1.TabIndex = 26000;
@@ -607,7 +615,7 @@
             // lblTotalHours1
             // 
             this.lblTotalHours1.AutoSize = true;
-            this.lblTotalHours1.Location = new System.Drawing.Point(785, 192);
+            this.lblTotalHours1.Location = new System.Drawing.Point(785, 213);
             this.lblTotalHours1.Name = "lblTotalHours1";
             this.lblTotalHours1.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours1.TabIndex = 26000;
@@ -617,7 +625,7 @@
             // 
             this.lblEmployeeName.AutoSize = true;
             this.lblEmployeeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmployeeName.Location = new System.Drawing.Point(611, 70);
+            this.lblEmployeeName.Location = new System.Drawing.Point(611, 91);
             this.lblEmployeeName.Name = "lblEmployeeName";
             this.lblEmployeeName.Size = new System.Drawing.Size(101, 13);
             this.lblEmployeeName.TabIndex = 26000;
@@ -625,7 +633,7 @@
             // 
             // tbEmployeeName
             // 
-            this.tbEmployeeName.Location = new System.Drawing.Point(718, 67);
+            this.tbEmployeeName.Location = new System.Drawing.Point(718, 88);
             this.tbEmployeeName.Name = "tbEmployeeName";
             this.tbEmployeeName.ReadOnly = true;
             this.tbEmployeeName.Size = new System.Drawing.Size(200, 20);
@@ -635,7 +643,7 @@
             // btnReport
             // 
             this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReport.Location = new System.Drawing.Point(940, 187);
+            this.btnReport.Location = new System.Drawing.Point(940, 208);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(23, 143);
             this.btnReport.TabIndex = 26122;
@@ -645,7 +653,7 @@
             // lblRow3
             // 
             this.lblRow3.AutoSize = true;
-            this.lblRow3.Location = new System.Drawing.Point(9, 240);
+            this.lblRow3.Location = new System.Drawing.Point(9, 261);
             this.lblRow3.Name = "lblRow3";
             this.lblRow3.Size = new System.Drawing.Size(0, 13);
             this.lblRow3.TabIndex = 26000;
@@ -654,7 +662,7 @@
             // lblRow4
             // 
             this.lblRow4.AutoSize = true;
-            this.lblRow4.Location = new System.Drawing.Point(9, 264);
+            this.lblRow4.Location = new System.Drawing.Point(9, 285);
             this.lblRow4.Name = "lblRow4";
             this.lblRow4.Size = new System.Drawing.Size(0, 13);
             this.lblRow4.TabIndex = 26000;
@@ -663,7 +671,7 @@
             // lblRow5
             // 
             this.lblRow5.AutoSize = true;
-            this.lblRow5.Location = new System.Drawing.Point(9, 288);
+            this.lblRow5.Location = new System.Drawing.Point(9, 309);
             this.lblRow5.Name = "lblRow5";
             this.lblRow5.Size = new System.Drawing.Size(0, 13);
             this.lblRow5.TabIndex = 26000;
@@ -672,7 +680,7 @@
             // lblRow6
             // 
             this.lblRow6.AutoSize = true;
-            this.lblRow6.Location = new System.Drawing.Point(9, 312);
+            this.lblRow6.Location = new System.Drawing.Point(9, 333);
             this.lblRow6.Name = "lblRow6";
             this.lblRow6.Size = new System.Drawing.Size(0, 13);
             this.lblRow6.TabIndex = 26000;
@@ -681,7 +689,7 @@
             // lblRow7
             // 
             this.lblRow7.AutoSize = true;
-            this.lblRow7.Location = new System.Drawing.Point(9, 336);
+            this.lblRow7.Location = new System.Drawing.Point(9, 357);
             this.lblRow7.Name = "lblRow7";
             this.lblRow7.Size = new System.Drawing.Size(0, 13);
             this.lblRow7.TabIndex = 26000;
@@ -690,7 +698,7 @@
             // lblRow8
             // 
             this.lblRow8.AutoSize = true;
-            this.lblRow8.Location = new System.Drawing.Point(9, 360);
+            this.lblRow8.Location = new System.Drawing.Point(9, 381);
             this.lblRow8.Name = "lblRow8";
             this.lblRow8.Size = new System.Drawing.Size(0, 13);
             this.lblRow8.TabIndex = 26000;
@@ -699,7 +707,7 @@
             // lblRow9
             // 
             this.lblRow9.AutoSize = true;
-            this.lblRow9.Location = new System.Drawing.Point(9, 384);
+            this.lblRow9.Location = new System.Drawing.Point(9, 405);
             this.lblRow9.Name = "lblRow9";
             this.lblRow9.Size = new System.Drawing.Size(0, 13);
             this.lblRow9.TabIndex = 26000;
@@ -708,7 +716,7 @@
             // lblRow10
             // 
             this.lblRow10.AutoSize = true;
-            this.lblRow10.Location = new System.Drawing.Point(9, 408);
+            this.lblRow10.Location = new System.Drawing.Point(9, 429);
             this.lblRow10.Name = "lblRow10";
             this.lblRow10.Size = new System.Drawing.Size(0, 13);
             this.lblRow10.TabIndex = 26000;
@@ -717,7 +725,7 @@
             // lblRow11
             // 
             this.lblRow11.AutoSize = true;
-            this.lblRow11.Location = new System.Drawing.Point(9, 432);
+            this.lblRow11.Location = new System.Drawing.Point(9, 453);
             this.lblRow11.Name = "lblRow11";
             this.lblRow11.Size = new System.Drawing.Size(0, 13);
             this.lblRow11.TabIndex = 26000;
@@ -726,7 +734,7 @@
             // lblRow12
             // 
             this.lblRow12.AutoSize = true;
-            this.lblRow12.Location = new System.Drawing.Point(9, 456);
+            this.lblRow12.Location = new System.Drawing.Point(9, 477);
             this.lblRow12.Name = "lblRow12";
             this.lblRow12.Size = new System.Drawing.Size(0, 13);
             this.lblRow12.TabIndex = 26000;
@@ -735,7 +743,7 @@
             // lblRow1
             // 
             this.lblRow1.AutoSize = true;
-            this.lblRow1.Location = new System.Drawing.Point(9, 192);
+            this.lblRow1.Location = new System.Drawing.Point(9, 213);
             this.lblRow1.Name = "lblRow1";
             this.lblRow1.Size = new System.Drawing.Size(0, 13);
             this.lblRow1.TabIndex = 26000;
@@ -744,7 +752,7 @@
             // lblRow2
             // 
             this.lblRow2.AutoSize = true;
-            this.lblRow2.Location = new System.Drawing.Point(9, 216);
+            this.lblRow2.Location = new System.Drawing.Point(9, 237);
             this.lblRow2.Name = "lblRow2";
             this.lblRow2.Size = new System.Drawing.Size(0, 13);
             this.lblRow2.TabIndex = 26000;
@@ -752,7 +760,7 @@
             // 
             // btnEdit1
             // 
-            this.btnEdit1.Location = new System.Drawing.Point(888, 187);
+            this.btnEdit1.Location = new System.Drawing.Point(888, 208);
             this.btnEdit1.Name = "btnEdit1";
             this.btnEdit1.Size = new System.Drawing.Size(45, 23);
             this.btnEdit1.TabIndex = 26123;
@@ -763,7 +771,7 @@
             // lblWorkOrder2
             // 
             this.lblWorkOrder2.AutoSize = true;
-            this.lblWorkOrder2.Location = new System.Drawing.Point(37, 216);
+            this.lblWorkOrder2.Location = new System.Drawing.Point(37, 237);
             this.lblWorkOrder2.Name = "lblWorkOrder2";
             this.lblWorkOrder2.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder2.TabIndex = 26128;
@@ -772,7 +780,7 @@
             // lblWorkOrder3
             // 
             this.lblWorkOrder3.AutoSize = true;
-            this.lblWorkOrder3.Location = new System.Drawing.Point(37, 240);
+            this.lblWorkOrder3.Location = new System.Drawing.Point(37, 261);
             this.lblWorkOrder3.Name = "lblWorkOrder3";
             this.lblWorkOrder3.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder3.TabIndex = 26129;
@@ -781,7 +789,7 @@
             // lblWorkOrder4
             // 
             this.lblWorkOrder4.AutoSize = true;
-            this.lblWorkOrder4.Location = new System.Drawing.Point(37, 264);
+            this.lblWorkOrder4.Location = new System.Drawing.Point(37, 285);
             this.lblWorkOrder4.Name = "lblWorkOrder4";
             this.lblWorkOrder4.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder4.TabIndex = 26130;
@@ -790,7 +798,7 @@
             // lblWorkOrder5
             // 
             this.lblWorkOrder5.AutoSize = true;
-            this.lblWorkOrder5.Location = new System.Drawing.Point(37, 288);
+            this.lblWorkOrder5.Location = new System.Drawing.Point(37, 309);
             this.lblWorkOrder5.Name = "lblWorkOrder5";
             this.lblWorkOrder5.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder5.TabIndex = 26131;
@@ -799,7 +807,7 @@
             // lblWorkOrder6
             // 
             this.lblWorkOrder6.AutoSize = true;
-            this.lblWorkOrder6.Location = new System.Drawing.Point(37, 312);
+            this.lblWorkOrder6.Location = new System.Drawing.Point(37, 333);
             this.lblWorkOrder6.Name = "lblWorkOrder6";
             this.lblWorkOrder6.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder6.TabIndex = 26132;
@@ -808,7 +816,7 @@
             // lblWorkOrder7
             // 
             this.lblWorkOrder7.AutoSize = true;
-            this.lblWorkOrder7.Location = new System.Drawing.Point(37, 336);
+            this.lblWorkOrder7.Location = new System.Drawing.Point(37, 357);
             this.lblWorkOrder7.Name = "lblWorkOrder7";
             this.lblWorkOrder7.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder7.TabIndex = 26133;
@@ -817,7 +825,7 @@
             // lblWorkOrder8
             // 
             this.lblWorkOrder8.AutoSize = true;
-            this.lblWorkOrder8.Location = new System.Drawing.Point(37, 360);
+            this.lblWorkOrder8.Location = new System.Drawing.Point(37, 381);
             this.lblWorkOrder8.Name = "lblWorkOrder8";
             this.lblWorkOrder8.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder8.TabIndex = 26134;
@@ -826,7 +834,7 @@
             // lblWorkOrder9
             // 
             this.lblWorkOrder9.AutoSize = true;
-            this.lblWorkOrder9.Location = new System.Drawing.Point(37, 384);
+            this.lblWorkOrder9.Location = new System.Drawing.Point(37, 405);
             this.lblWorkOrder9.Name = "lblWorkOrder9";
             this.lblWorkOrder9.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder9.TabIndex = 26135;
@@ -835,7 +843,7 @@
             // lblWorkOrder10
             // 
             this.lblWorkOrder10.AutoSize = true;
-            this.lblWorkOrder10.Location = new System.Drawing.Point(37, 408);
+            this.lblWorkOrder10.Location = new System.Drawing.Point(37, 429);
             this.lblWorkOrder10.Name = "lblWorkOrder10";
             this.lblWorkOrder10.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder10.TabIndex = 26136;
@@ -844,7 +852,7 @@
             // lblWorkOrder11
             // 
             this.lblWorkOrder11.AutoSize = true;
-            this.lblWorkOrder11.Location = new System.Drawing.Point(37, 432);
+            this.lblWorkOrder11.Location = new System.Drawing.Point(37, 453);
             this.lblWorkOrder11.Name = "lblWorkOrder11";
             this.lblWorkOrder11.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder11.TabIndex = 26137;
@@ -853,7 +861,7 @@
             // lblWorkOrder12
             // 
             this.lblWorkOrder12.AutoSize = true;
-            this.lblWorkOrder12.Location = new System.Drawing.Point(37, 456);
+            this.lblWorkOrder12.Location = new System.Drawing.Point(37, 477);
             this.lblWorkOrder12.Name = "lblWorkOrder12";
             this.lblWorkOrder12.Size = new System.Drawing.Size(0, 13);
             this.lblWorkOrder12.TabIndex = 26138;
@@ -862,7 +870,7 @@
             // lblTotalHours2
             // 
             this.lblTotalHours2.AutoSize = true;
-            this.lblTotalHours2.Location = new System.Drawing.Point(785, 216);
+            this.lblTotalHours2.Location = new System.Drawing.Point(785, 237);
             this.lblTotalHours2.Name = "lblTotalHours2";
             this.lblTotalHours2.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours2.TabIndex = 26139;
@@ -871,7 +879,7 @@
             // lblStandardSUHrs2
             // 
             this.lblStandardSUHrs2.AutoSize = true;
-            this.lblStandardSUHrs2.Location = new System.Drawing.Point(670, 216);
+            this.lblStandardSUHrs2.Location = new System.Drawing.Point(670, 237);
             this.lblStandardSUHrs2.Name = "lblStandardSUHrs2";
             this.lblStandardSUHrs2.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs2.TabIndex = 26140;
@@ -880,7 +888,7 @@
             // lblScrap2
             // 
             this.lblScrap2.AutoSize = true;
-            this.lblScrap2.Location = new System.Drawing.Point(615, 216);
+            this.lblScrap2.Location = new System.Drawing.Point(615, 237);
             this.lblScrap2.Name = "lblScrap2";
             this.lblScrap2.Size = new System.Drawing.Size(0, 13);
             this.lblScrap2.TabIndex = 26141;
@@ -889,7 +897,7 @@
             // lblQuantity2
             // 
             this.lblQuantity2.AutoSize = true;
-            this.lblQuantity2.Location = new System.Drawing.Point(558, 216);
+            this.lblQuantity2.Location = new System.Drawing.Point(558, 237);
             this.lblQuantity2.Name = "lblQuantity2";
             this.lblQuantity2.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity2.TabIndex = 26142;
@@ -898,7 +906,7 @@
             // lblActualPPH2
             // 
             this.lblActualPPH2.AutoSize = true;
-            this.lblActualPPH2.Location = new System.Drawing.Point(503, 216);
+            this.lblActualPPH2.Location = new System.Drawing.Point(503, 237);
             this.lblActualPPH2.Name = "lblActualPPH2";
             this.lblActualPPH2.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH2.TabIndex = 26143;
@@ -907,7 +915,7 @@
             // lblStandardPPH2
             // 
             this.lblStandardPPH2.AutoSize = true;
-            this.lblStandardPPH2.Location = new System.Drawing.Point(447, 216);
+            this.lblStandardPPH2.Location = new System.Drawing.Point(447, 237);
             this.lblStandardPPH2.Name = "lblStandardPPH2";
             this.lblStandardPPH2.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH2.TabIndex = 26144;
@@ -916,7 +924,7 @@
             // lblCode2
             // 
             this.lblCode2.AutoSize = true;
-            this.lblCode2.Location = new System.Drawing.Point(345, 216);
+            this.lblCode2.Location = new System.Drawing.Point(345, 237);
             this.lblCode2.Name = "lblCode2";
             this.lblCode2.Size = new System.Drawing.Size(0, 13);
             this.lblCode2.TabIndex = 26145;
@@ -925,7 +933,7 @@
             // lblOperation2
             // 
             this.lblOperation2.AutoSize = true;
-            this.lblOperation2.Location = new System.Drawing.Point(295, 216);
+            this.lblOperation2.Location = new System.Drawing.Point(295, 237);
             this.lblOperation2.Name = "lblOperation2";
             this.lblOperation2.Size = new System.Drawing.Size(0, 13);
             this.lblOperation2.TabIndex = 26146;
@@ -934,7 +942,7 @@
             // lblMachine2
             // 
             this.lblMachine2.AutoSize = true;
-            this.lblMachine2.Location = new System.Drawing.Point(236, 216);
+            this.lblMachine2.Location = new System.Drawing.Point(236, 237);
             this.lblMachine2.Name = "lblMachine2";
             this.lblMachine2.Size = new System.Drawing.Size(0, 13);
             this.lblMachine2.TabIndex = 26147;
@@ -943,7 +951,7 @@
             // lblPart2
             // 
             this.lblPart2.AutoSize = true;
-            this.lblPart2.Location = new System.Drawing.Point(135, 216);
+            this.lblPart2.Location = new System.Drawing.Point(135, 237);
             this.lblPart2.Name = "lblPart2";
             this.lblPart2.Size = new System.Drawing.Size(0, 13);
             this.lblPart2.TabIndex = 26148;
@@ -953,7 +961,7 @@
             // 
             this.lblTotalHours3.AutoSize = true;
             this.lblTotalHours3.BackColor = System.Drawing.SystemColors.Control;
-            this.lblTotalHours3.Location = new System.Drawing.Point(785, 240);
+            this.lblTotalHours3.Location = new System.Drawing.Point(785, 261);
             this.lblTotalHours3.Name = "lblTotalHours3";
             this.lblTotalHours3.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours3.TabIndex = 26149;
@@ -962,7 +970,7 @@
             // lblStandardSUHrs3
             // 
             this.lblStandardSUHrs3.AutoSize = true;
-            this.lblStandardSUHrs3.Location = new System.Drawing.Point(670, 240);
+            this.lblStandardSUHrs3.Location = new System.Drawing.Point(670, 261);
             this.lblStandardSUHrs3.Name = "lblStandardSUHrs3";
             this.lblStandardSUHrs3.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs3.TabIndex = 26150;
@@ -971,7 +979,7 @@
             // lblScrap3
             // 
             this.lblScrap3.AutoSize = true;
-            this.lblScrap3.Location = new System.Drawing.Point(615, 240);
+            this.lblScrap3.Location = new System.Drawing.Point(615, 261);
             this.lblScrap3.Name = "lblScrap3";
             this.lblScrap3.Size = new System.Drawing.Size(0, 13);
             this.lblScrap3.TabIndex = 26151;
@@ -980,7 +988,7 @@
             // lblQuantity3
             // 
             this.lblQuantity3.AutoSize = true;
-            this.lblQuantity3.Location = new System.Drawing.Point(558, 240);
+            this.lblQuantity3.Location = new System.Drawing.Point(558, 261);
             this.lblQuantity3.Name = "lblQuantity3";
             this.lblQuantity3.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity3.TabIndex = 26152;
@@ -989,7 +997,7 @@
             // lblActualPPH3
             // 
             this.lblActualPPH3.AutoSize = true;
-            this.lblActualPPH3.Location = new System.Drawing.Point(503, 240);
+            this.lblActualPPH3.Location = new System.Drawing.Point(503, 261);
             this.lblActualPPH3.Name = "lblActualPPH3";
             this.lblActualPPH3.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH3.TabIndex = 26153;
@@ -998,7 +1006,7 @@
             // lblStandardPPH3
             // 
             this.lblStandardPPH3.AutoSize = true;
-            this.lblStandardPPH3.Location = new System.Drawing.Point(447, 240);
+            this.lblStandardPPH3.Location = new System.Drawing.Point(447, 261);
             this.lblStandardPPH3.Name = "lblStandardPPH3";
             this.lblStandardPPH3.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH3.TabIndex = 26154;
@@ -1007,7 +1015,7 @@
             // lblCode3
             // 
             this.lblCode3.AutoSize = true;
-            this.lblCode3.Location = new System.Drawing.Point(345, 240);
+            this.lblCode3.Location = new System.Drawing.Point(345, 261);
             this.lblCode3.Name = "lblCode3";
             this.lblCode3.Size = new System.Drawing.Size(0, 13);
             this.lblCode3.TabIndex = 26155;
@@ -1016,7 +1024,7 @@
             // lblOperation3
             // 
             this.lblOperation3.AutoSize = true;
-            this.lblOperation3.Location = new System.Drawing.Point(295, 240);
+            this.lblOperation3.Location = new System.Drawing.Point(295, 261);
             this.lblOperation3.Name = "lblOperation3";
             this.lblOperation3.Size = new System.Drawing.Size(0, 13);
             this.lblOperation3.TabIndex = 26156;
@@ -1025,7 +1033,7 @@
             // lblMachine3
             // 
             this.lblMachine3.AutoSize = true;
-            this.lblMachine3.Location = new System.Drawing.Point(236, 240);
+            this.lblMachine3.Location = new System.Drawing.Point(236, 261);
             this.lblMachine3.Name = "lblMachine3";
             this.lblMachine3.Size = new System.Drawing.Size(0, 13);
             this.lblMachine3.TabIndex = 26157;
@@ -1034,7 +1042,7 @@
             // lblPart3
             // 
             this.lblPart3.AutoSize = true;
-            this.lblPart3.Location = new System.Drawing.Point(135, 240);
+            this.lblPart3.Location = new System.Drawing.Point(135, 261);
             this.lblPart3.Name = "lblPart3";
             this.lblPart3.Size = new System.Drawing.Size(0, 13);
             this.lblPart3.TabIndex = 26158;
@@ -1043,7 +1051,7 @@
             // lblTotalHours4
             // 
             this.lblTotalHours4.AutoSize = true;
-            this.lblTotalHours4.Location = new System.Drawing.Point(785, 264);
+            this.lblTotalHours4.Location = new System.Drawing.Point(785, 285);
             this.lblTotalHours4.Name = "lblTotalHours4";
             this.lblTotalHours4.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours4.TabIndex = 26159;
@@ -1052,7 +1060,7 @@
             // lblStandardSUHrs4
             // 
             this.lblStandardSUHrs4.AutoSize = true;
-            this.lblStandardSUHrs4.Location = new System.Drawing.Point(670, 264);
+            this.lblStandardSUHrs4.Location = new System.Drawing.Point(670, 285);
             this.lblStandardSUHrs4.Name = "lblStandardSUHrs4";
             this.lblStandardSUHrs4.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs4.TabIndex = 26160;
@@ -1061,7 +1069,7 @@
             // lblScrap4
             // 
             this.lblScrap4.AutoSize = true;
-            this.lblScrap4.Location = new System.Drawing.Point(615, 264);
+            this.lblScrap4.Location = new System.Drawing.Point(615, 285);
             this.lblScrap4.Name = "lblScrap4";
             this.lblScrap4.Size = new System.Drawing.Size(0, 13);
             this.lblScrap4.TabIndex = 26161;
@@ -1070,7 +1078,7 @@
             // lblQuantity4
             // 
             this.lblQuantity4.AutoSize = true;
-            this.lblQuantity4.Location = new System.Drawing.Point(558, 264);
+            this.lblQuantity4.Location = new System.Drawing.Point(558, 285);
             this.lblQuantity4.Name = "lblQuantity4";
             this.lblQuantity4.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity4.TabIndex = 26162;
@@ -1079,7 +1087,7 @@
             // lblActualPPH4
             // 
             this.lblActualPPH4.AutoSize = true;
-            this.lblActualPPH4.Location = new System.Drawing.Point(503, 264);
+            this.lblActualPPH4.Location = new System.Drawing.Point(503, 285);
             this.lblActualPPH4.Name = "lblActualPPH4";
             this.lblActualPPH4.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH4.TabIndex = 26163;
@@ -1088,7 +1096,7 @@
             // lblStandardPPH4
             // 
             this.lblStandardPPH4.AutoSize = true;
-            this.lblStandardPPH4.Location = new System.Drawing.Point(447, 264);
+            this.lblStandardPPH4.Location = new System.Drawing.Point(447, 285);
             this.lblStandardPPH4.Name = "lblStandardPPH4";
             this.lblStandardPPH4.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH4.TabIndex = 26164;
@@ -1097,7 +1105,7 @@
             // lblCode4
             // 
             this.lblCode4.AutoSize = true;
-            this.lblCode4.Location = new System.Drawing.Point(345, 264);
+            this.lblCode4.Location = new System.Drawing.Point(345, 285);
             this.lblCode4.Name = "lblCode4";
             this.lblCode4.Size = new System.Drawing.Size(0, 13);
             this.lblCode4.TabIndex = 26165;
@@ -1106,7 +1114,7 @@
             // lblOperation4
             // 
             this.lblOperation4.AutoSize = true;
-            this.lblOperation4.Location = new System.Drawing.Point(295, 264);
+            this.lblOperation4.Location = new System.Drawing.Point(295, 285);
             this.lblOperation4.Name = "lblOperation4";
             this.lblOperation4.Size = new System.Drawing.Size(0, 13);
             this.lblOperation4.TabIndex = 26166;
@@ -1115,7 +1123,7 @@
             // lblMachine4
             // 
             this.lblMachine4.AutoSize = true;
-            this.lblMachine4.Location = new System.Drawing.Point(236, 264);
+            this.lblMachine4.Location = new System.Drawing.Point(236, 285);
             this.lblMachine4.Name = "lblMachine4";
             this.lblMachine4.Size = new System.Drawing.Size(0, 13);
             this.lblMachine4.TabIndex = 26167;
@@ -1124,7 +1132,7 @@
             // lblPart4
             // 
             this.lblPart4.AutoSize = true;
-            this.lblPart4.Location = new System.Drawing.Point(135, 264);
+            this.lblPart4.Location = new System.Drawing.Point(135, 285);
             this.lblPart4.Name = "lblPart4";
             this.lblPart4.Size = new System.Drawing.Size(0, 13);
             this.lblPart4.TabIndex = 26168;
@@ -1133,7 +1141,7 @@
             // lblTotalHours5
             // 
             this.lblTotalHours5.AutoSize = true;
-            this.lblTotalHours5.Location = new System.Drawing.Point(785, 288);
+            this.lblTotalHours5.Location = new System.Drawing.Point(785, 309);
             this.lblTotalHours5.Name = "lblTotalHours5";
             this.lblTotalHours5.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours5.TabIndex = 26169;
@@ -1142,7 +1150,7 @@
             // lblStandardSUHrs5
             // 
             this.lblStandardSUHrs5.AutoSize = true;
-            this.lblStandardSUHrs5.Location = new System.Drawing.Point(670, 288);
+            this.lblStandardSUHrs5.Location = new System.Drawing.Point(670, 309);
             this.lblStandardSUHrs5.Name = "lblStandardSUHrs5";
             this.lblStandardSUHrs5.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs5.TabIndex = 26170;
@@ -1151,7 +1159,7 @@
             // lblScrap5
             // 
             this.lblScrap5.AutoSize = true;
-            this.lblScrap5.Location = new System.Drawing.Point(615, 288);
+            this.lblScrap5.Location = new System.Drawing.Point(615, 309);
             this.lblScrap5.Name = "lblScrap5";
             this.lblScrap5.Size = new System.Drawing.Size(0, 13);
             this.lblScrap5.TabIndex = 26171;
@@ -1160,7 +1168,7 @@
             // lblQuantity5
             // 
             this.lblQuantity5.AutoSize = true;
-            this.lblQuantity5.Location = new System.Drawing.Point(558, 288);
+            this.lblQuantity5.Location = new System.Drawing.Point(558, 309);
             this.lblQuantity5.Name = "lblQuantity5";
             this.lblQuantity5.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity5.TabIndex = 26172;
@@ -1169,7 +1177,7 @@
             // lblActualPPH5
             // 
             this.lblActualPPH5.AutoSize = true;
-            this.lblActualPPH5.Location = new System.Drawing.Point(503, 288);
+            this.lblActualPPH5.Location = new System.Drawing.Point(503, 309);
             this.lblActualPPH5.Name = "lblActualPPH5";
             this.lblActualPPH5.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH5.TabIndex = 26173;
@@ -1178,7 +1186,7 @@
             // lblStandardPPH5
             // 
             this.lblStandardPPH5.AutoSize = true;
-            this.lblStandardPPH5.Location = new System.Drawing.Point(447, 288);
+            this.lblStandardPPH5.Location = new System.Drawing.Point(447, 309);
             this.lblStandardPPH5.Name = "lblStandardPPH5";
             this.lblStandardPPH5.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH5.TabIndex = 26174;
@@ -1187,7 +1195,7 @@
             // lblCode5
             // 
             this.lblCode5.AutoSize = true;
-            this.lblCode5.Location = new System.Drawing.Point(345, 288);
+            this.lblCode5.Location = new System.Drawing.Point(345, 309);
             this.lblCode5.Name = "lblCode5";
             this.lblCode5.Size = new System.Drawing.Size(0, 13);
             this.lblCode5.TabIndex = 26175;
@@ -1196,7 +1204,7 @@
             // lblOperation5
             // 
             this.lblOperation5.AutoSize = true;
-            this.lblOperation5.Location = new System.Drawing.Point(295, 288);
+            this.lblOperation5.Location = new System.Drawing.Point(295, 309);
             this.lblOperation5.Name = "lblOperation5";
             this.lblOperation5.Size = new System.Drawing.Size(0, 13);
             this.lblOperation5.TabIndex = 26176;
@@ -1205,7 +1213,7 @@
             // lblMachine5
             // 
             this.lblMachine5.AutoSize = true;
-            this.lblMachine5.Location = new System.Drawing.Point(236, 288);
+            this.lblMachine5.Location = new System.Drawing.Point(236, 309);
             this.lblMachine5.Name = "lblMachine5";
             this.lblMachine5.Size = new System.Drawing.Size(0, 13);
             this.lblMachine5.TabIndex = 26177;
@@ -1214,7 +1222,7 @@
             // lblPart5
             // 
             this.lblPart5.AutoSize = true;
-            this.lblPart5.Location = new System.Drawing.Point(135, 288);
+            this.lblPart5.Location = new System.Drawing.Point(135, 309);
             this.lblPart5.Name = "lblPart5";
             this.lblPart5.Size = new System.Drawing.Size(0, 13);
             this.lblPart5.TabIndex = 26178;
@@ -1223,7 +1231,7 @@
             // lblTotalHours6
             // 
             this.lblTotalHours6.AutoSize = true;
-            this.lblTotalHours6.Location = new System.Drawing.Point(785, 312);
+            this.lblTotalHours6.Location = new System.Drawing.Point(785, 333);
             this.lblTotalHours6.Name = "lblTotalHours6";
             this.lblTotalHours6.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours6.TabIndex = 26179;
@@ -1232,7 +1240,7 @@
             // lblStandardSUHrs6
             // 
             this.lblStandardSUHrs6.AutoSize = true;
-            this.lblStandardSUHrs6.Location = new System.Drawing.Point(670, 312);
+            this.lblStandardSUHrs6.Location = new System.Drawing.Point(670, 333);
             this.lblStandardSUHrs6.Name = "lblStandardSUHrs6";
             this.lblStandardSUHrs6.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs6.TabIndex = 26180;
@@ -1241,7 +1249,7 @@
             // lblScrap6
             // 
             this.lblScrap6.AutoSize = true;
-            this.lblScrap6.Location = new System.Drawing.Point(615, 312);
+            this.lblScrap6.Location = new System.Drawing.Point(615, 333);
             this.lblScrap6.Name = "lblScrap6";
             this.lblScrap6.Size = new System.Drawing.Size(0, 13);
             this.lblScrap6.TabIndex = 26181;
@@ -1250,7 +1258,7 @@
             // lblQuantity6
             // 
             this.lblQuantity6.AutoSize = true;
-            this.lblQuantity6.Location = new System.Drawing.Point(558, 312);
+            this.lblQuantity6.Location = new System.Drawing.Point(558, 333);
             this.lblQuantity6.Name = "lblQuantity6";
             this.lblQuantity6.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity6.TabIndex = 26182;
@@ -1259,7 +1267,7 @@
             // lblActualPPH6
             // 
             this.lblActualPPH6.AutoSize = true;
-            this.lblActualPPH6.Location = new System.Drawing.Point(503, 312);
+            this.lblActualPPH6.Location = new System.Drawing.Point(503, 333);
             this.lblActualPPH6.Name = "lblActualPPH6";
             this.lblActualPPH6.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH6.TabIndex = 26183;
@@ -1268,7 +1276,7 @@
             // lblStandardPPH6
             // 
             this.lblStandardPPH6.AutoSize = true;
-            this.lblStandardPPH6.Location = new System.Drawing.Point(447, 312);
+            this.lblStandardPPH6.Location = new System.Drawing.Point(447, 333);
             this.lblStandardPPH6.Name = "lblStandardPPH6";
             this.lblStandardPPH6.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH6.TabIndex = 26184;
@@ -1277,7 +1285,7 @@
             // lblCode6
             // 
             this.lblCode6.AutoSize = true;
-            this.lblCode6.Location = new System.Drawing.Point(345, 312);
+            this.lblCode6.Location = new System.Drawing.Point(345, 333);
             this.lblCode6.Name = "lblCode6";
             this.lblCode6.Size = new System.Drawing.Size(0, 13);
             this.lblCode6.TabIndex = 26185;
@@ -1286,7 +1294,7 @@
             // lblOperation6
             // 
             this.lblOperation6.AutoSize = true;
-            this.lblOperation6.Location = new System.Drawing.Point(295, 312);
+            this.lblOperation6.Location = new System.Drawing.Point(295, 333);
             this.lblOperation6.Name = "lblOperation6";
             this.lblOperation6.Size = new System.Drawing.Size(0, 13);
             this.lblOperation6.TabIndex = 26186;
@@ -1295,7 +1303,7 @@
             // lblMachine6
             // 
             this.lblMachine6.AutoSize = true;
-            this.lblMachine6.Location = new System.Drawing.Point(236, 312);
+            this.lblMachine6.Location = new System.Drawing.Point(236, 333);
             this.lblMachine6.Name = "lblMachine6";
             this.lblMachine6.Size = new System.Drawing.Size(0, 13);
             this.lblMachine6.TabIndex = 26187;
@@ -1304,7 +1312,7 @@
             // lblPart6
             // 
             this.lblPart6.AutoSize = true;
-            this.lblPart6.Location = new System.Drawing.Point(135, 312);
+            this.lblPart6.Location = new System.Drawing.Point(135, 333);
             this.lblPart6.Name = "lblPart6";
             this.lblPart6.Size = new System.Drawing.Size(0, 13);
             this.lblPart6.TabIndex = 26188;
@@ -1313,7 +1321,7 @@
             // lblTotalHours7
             // 
             this.lblTotalHours7.AutoSize = true;
-            this.lblTotalHours7.Location = new System.Drawing.Point(785, 336);
+            this.lblTotalHours7.Location = new System.Drawing.Point(785, 357);
             this.lblTotalHours7.Name = "lblTotalHours7";
             this.lblTotalHours7.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours7.TabIndex = 26189;
@@ -1322,7 +1330,7 @@
             // lblStandardSUHrs7
             // 
             this.lblStandardSUHrs7.AutoSize = true;
-            this.lblStandardSUHrs7.Location = new System.Drawing.Point(670, 336);
+            this.lblStandardSUHrs7.Location = new System.Drawing.Point(670, 357);
             this.lblStandardSUHrs7.Name = "lblStandardSUHrs7";
             this.lblStandardSUHrs7.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs7.TabIndex = 26190;
@@ -1331,7 +1339,7 @@
             // lblScrap7
             // 
             this.lblScrap7.AutoSize = true;
-            this.lblScrap7.Location = new System.Drawing.Point(615, 336);
+            this.lblScrap7.Location = new System.Drawing.Point(615, 357);
             this.lblScrap7.Name = "lblScrap7";
             this.lblScrap7.Size = new System.Drawing.Size(0, 13);
             this.lblScrap7.TabIndex = 26191;
@@ -1340,7 +1348,7 @@
             // lblQuantity7
             // 
             this.lblQuantity7.AutoSize = true;
-            this.lblQuantity7.Location = new System.Drawing.Point(558, 336);
+            this.lblQuantity7.Location = new System.Drawing.Point(558, 357);
             this.lblQuantity7.Name = "lblQuantity7";
             this.lblQuantity7.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity7.TabIndex = 26192;
@@ -1349,7 +1357,7 @@
             // lblActualPPH7
             // 
             this.lblActualPPH7.AutoSize = true;
-            this.lblActualPPH7.Location = new System.Drawing.Point(503, 336);
+            this.lblActualPPH7.Location = new System.Drawing.Point(503, 357);
             this.lblActualPPH7.Name = "lblActualPPH7";
             this.lblActualPPH7.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH7.TabIndex = 26193;
@@ -1358,7 +1366,7 @@
             // lblStandardPPH7
             // 
             this.lblStandardPPH7.AutoSize = true;
-            this.lblStandardPPH7.Location = new System.Drawing.Point(447, 336);
+            this.lblStandardPPH7.Location = new System.Drawing.Point(447, 357);
             this.lblStandardPPH7.Name = "lblStandardPPH7";
             this.lblStandardPPH7.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH7.TabIndex = 26194;
@@ -1367,7 +1375,7 @@
             // lblCode7
             // 
             this.lblCode7.AutoSize = true;
-            this.lblCode7.Location = new System.Drawing.Point(345, 336);
+            this.lblCode7.Location = new System.Drawing.Point(345, 357);
             this.lblCode7.Name = "lblCode7";
             this.lblCode7.Size = new System.Drawing.Size(0, 13);
             this.lblCode7.TabIndex = 26195;
@@ -1376,7 +1384,7 @@
             // lblOperation7
             // 
             this.lblOperation7.AutoSize = true;
-            this.lblOperation7.Location = new System.Drawing.Point(295, 336);
+            this.lblOperation7.Location = new System.Drawing.Point(295, 357);
             this.lblOperation7.Name = "lblOperation7";
             this.lblOperation7.Size = new System.Drawing.Size(0, 13);
             this.lblOperation7.TabIndex = 26196;
@@ -1385,7 +1393,7 @@
             // lblMachine7
             // 
             this.lblMachine7.AutoSize = true;
-            this.lblMachine7.Location = new System.Drawing.Point(236, 336);
+            this.lblMachine7.Location = new System.Drawing.Point(236, 357);
             this.lblMachine7.Name = "lblMachine7";
             this.lblMachine7.Size = new System.Drawing.Size(0, 13);
             this.lblMachine7.TabIndex = 26197;
@@ -1394,7 +1402,7 @@
             // lblPart7
             // 
             this.lblPart7.AutoSize = true;
-            this.lblPart7.Location = new System.Drawing.Point(135, 336);
+            this.lblPart7.Location = new System.Drawing.Point(135, 357);
             this.lblPart7.Name = "lblPart7";
             this.lblPart7.Size = new System.Drawing.Size(0, 13);
             this.lblPart7.TabIndex = 26198;
@@ -1403,7 +1411,7 @@
             // lblTotalHours8
             // 
             this.lblTotalHours8.AutoSize = true;
-            this.lblTotalHours8.Location = new System.Drawing.Point(785, 360);
+            this.lblTotalHours8.Location = new System.Drawing.Point(785, 381);
             this.lblTotalHours8.Name = "lblTotalHours8";
             this.lblTotalHours8.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours8.TabIndex = 26199;
@@ -1412,7 +1420,7 @@
             // lblStandardSUHrs8
             // 
             this.lblStandardSUHrs8.AutoSize = true;
-            this.lblStandardSUHrs8.Location = new System.Drawing.Point(670, 360);
+            this.lblStandardSUHrs8.Location = new System.Drawing.Point(670, 381);
             this.lblStandardSUHrs8.Name = "lblStandardSUHrs8";
             this.lblStandardSUHrs8.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs8.TabIndex = 26200;
@@ -1421,7 +1429,7 @@
             // lblScrap8
             // 
             this.lblScrap8.AutoSize = true;
-            this.lblScrap8.Location = new System.Drawing.Point(615, 360);
+            this.lblScrap8.Location = new System.Drawing.Point(615, 381);
             this.lblScrap8.Name = "lblScrap8";
             this.lblScrap8.Size = new System.Drawing.Size(0, 13);
             this.lblScrap8.TabIndex = 26201;
@@ -1430,7 +1438,7 @@
             // lblQuantity8
             // 
             this.lblQuantity8.AutoSize = true;
-            this.lblQuantity8.Location = new System.Drawing.Point(558, 360);
+            this.lblQuantity8.Location = new System.Drawing.Point(558, 381);
             this.lblQuantity8.Name = "lblQuantity8";
             this.lblQuantity8.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity8.TabIndex = 26202;
@@ -1439,7 +1447,7 @@
             // lblActualPPH8
             // 
             this.lblActualPPH8.AutoSize = true;
-            this.lblActualPPH8.Location = new System.Drawing.Point(503, 360);
+            this.lblActualPPH8.Location = new System.Drawing.Point(503, 381);
             this.lblActualPPH8.Name = "lblActualPPH8";
             this.lblActualPPH8.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH8.TabIndex = 26203;
@@ -1448,7 +1456,7 @@
             // lblStandardPPH8
             // 
             this.lblStandardPPH8.AutoSize = true;
-            this.lblStandardPPH8.Location = new System.Drawing.Point(447, 360);
+            this.lblStandardPPH8.Location = new System.Drawing.Point(447, 381);
             this.lblStandardPPH8.Name = "lblStandardPPH8";
             this.lblStandardPPH8.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH8.TabIndex = 26204;
@@ -1457,7 +1465,7 @@
             // lblCode8
             // 
             this.lblCode8.AutoSize = true;
-            this.lblCode8.Location = new System.Drawing.Point(345, 360);
+            this.lblCode8.Location = new System.Drawing.Point(345, 381);
             this.lblCode8.Name = "lblCode8";
             this.lblCode8.Size = new System.Drawing.Size(0, 13);
             this.lblCode8.TabIndex = 26205;
@@ -1466,7 +1474,7 @@
             // lblOperation8
             // 
             this.lblOperation8.AutoSize = true;
-            this.lblOperation8.Location = new System.Drawing.Point(295, 360);
+            this.lblOperation8.Location = new System.Drawing.Point(295, 381);
             this.lblOperation8.Name = "lblOperation8";
             this.lblOperation8.Size = new System.Drawing.Size(0, 13);
             this.lblOperation8.TabIndex = 26206;
@@ -1475,7 +1483,7 @@
             // lblMachine8
             // 
             this.lblMachine8.AutoSize = true;
-            this.lblMachine8.Location = new System.Drawing.Point(236, 360);
+            this.lblMachine8.Location = new System.Drawing.Point(236, 381);
             this.lblMachine8.Name = "lblMachine8";
             this.lblMachine8.Size = new System.Drawing.Size(0, 13);
             this.lblMachine8.TabIndex = 26207;
@@ -1484,7 +1492,7 @@
             // lblPart8
             // 
             this.lblPart8.AutoSize = true;
-            this.lblPart8.Location = new System.Drawing.Point(135, 360);
+            this.lblPart8.Location = new System.Drawing.Point(135, 381);
             this.lblPart8.Name = "lblPart8";
             this.lblPart8.Size = new System.Drawing.Size(0, 13);
             this.lblPart8.TabIndex = 26208;
@@ -1493,7 +1501,7 @@
             // lblTotalHours9
             // 
             this.lblTotalHours9.AutoSize = true;
-            this.lblTotalHours9.Location = new System.Drawing.Point(785, 384);
+            this.lblTotalHours9.Location = new System.Drawing.Point(785, 405);
             this.lblTotalHours9.Name = "lblTotalHours9";
             this.lblTotalHours9.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours9.TabIndex = 26209;
@@ -1502,7 +1510,7 @@
             // lblStandardSUHrs9
             // 
             this.lblStandardSUHrs9.AutoSize = true;
-            this.lblStandardSUHrs9.Location = new System.Drawing.Point(670, 384);
+            this.lblStandardSUHrs9.Location = new System.Drawing.Point(670, 405);
             this.lblStandardSUHrs9.Name = "lblStandardSUHrs9";
             this.lblStandardSUHrs9.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs9.TabIndex = 26210;
@@ -1511,7 +1519,7 @@
             // lblScrap9
             // 
             this.lblScrap9.AutoSize = true;
-            this.lblScrap9.Location = new System.Drawing.Point(615, 384);
+            this.lblScrap9.Location = new System.Drawing.Point(615, 405);
             this.lblScrap9.Name = "lblScrap9";
             this.lblScrap9.Size = new System.Drawing.Size(0, 13);
             this.lblScrap9.TabIndex = 26211;
@@ -1520,7 +1528,7 @@
             // lblQuantity9
             // 
             this.lblQuantity9.AutoSize = true;
-            this.lblQuantity9.Location = new System.Drawing.Point(558, 384);
+            this.lblQuantity9.Location = new System.Drawing.Point(558, 405);
             this.lblQuantity9.Name = "lblQuantity9";
             this.lblQuantity9.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity9.TabIndex = 26212;
@@ -1529,7 +1537,7 @@
             // lblActualPPH9
             // 
             this.lblActualPPH9.AutoSize = true;
-            this.lblActualPPH9.Location = new System.Drawing.Point(503, 384);
+            this.lblActualPPH9.Location = new System.Drawing.Point(503, 405);
             this.lblActualPPH9.Name = "lblActualPPH9";
             this.lblActualPPH9.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH9.TabIndex = 26213;
@@ -1538,7 +1546,7 @@
             // lblStandardPPH9
             // 
             this.lblStandardPPH9.AutoSize = true;
-            this.lblStandardPPH9.Location = new System.Drawing.Point(447, 384);
+            this.lblStandardPPH9.Location = new System.Drawing.Point(447, 405);
             this.lblStandardPPH9.Name = "lblStandardPPH9";
             this.lblStandardPPH9.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH9.TabIndex = 26214;
@@ -1547,7 +1555,7 @@
             // lblCode9
             // 
             this.lblCode9.AutoSize = true;
-            this.lblCode9.Location = new System.Drawing.Point(345, 384);
+            this.lblCode9.Location = new System.Drawing.Point(345, 405);
             this.lblCode9.Name = "lblCode9";
             this.lblCode9.Size = new System.Drawing.Size(0, 13);
             this.lblCode9.TabIndex = 26215;
@@ -1556,7 +1564,7 @@
             // lblOperation9
             // 
             this.lblOperation9.AutoSize = true;
-            this.lblOperation9.Location = new System.Drawing.Point(295, 384);
+            this.lblOperation9.Location = new System.Drawing.Point(295, 405);
             this.lblOperation9.Name = "lblOperation9";
             this.lblOperation9.Size = new System.Drawing.Size(0, 13);
             this.lblOperation9.TabIndex = 26216;
@@ -1565,7 +1573,7 @@
             // lblMachine9
             // 
             this.lblMachine9.AutoSize = true;
-            this.lblMachine9.Location = new System.Drawing.Point(236, 384);
+            this.lblMachine9.Location = new System.Drawing.Point(236, 405);
             this.lblMachine9.Name = "lblMachine9";
             this.lblMachine9.Size = new System.Drawing.Size(0, 13);
             this.lblMachine9.TabIndex = 26217;
@@ -1574,7 +1582,7 @@
             // lblPart9
             // 
             this.lblPart9.AutoSize = true;
-            this.lblPart9.Location = new System.Drawing.Point(135, 384);
+            this.lblPart9.Location = new System.Drawing.Point(135, 405);
             this.lblPart9.Name = "lblPart9";
             this.lblPart9.Size = new System.Drawing.Size(0, 13);
             this.lblPart9.TabIndex = 26218;
@@ -1583,7 +1591,7 @@
             // lblTotalHours10
             // 
             this.lblTotalHours10.AutoSize = true;
-            this.lblTotalHours10.Location = new System.Drawing.Point(785, 408);
+            this.lblTotalHours10.Location = new System.Drawing.Point(785, 429);
             this.lblTotalHours10.Name = "lblTotalHours10";
             this.lblTotalHours10.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours10.TabIndex = 26219;
@@ -1592,7 +1600,7 @@
             // lblStandardSUHrs10
             // 
             this.lblStandardSUHrs10.AutoSize = true;
-            this.lblStandardSUHrs10.Location = new System.Drawing.Point(670, 408);
+            this.lblStandardSUHrs10.Location = new System.Drawing.Point(670, 429);
             this.lblStandardSUHrs10.Name = "lblStandardSUHrs10";
             this.lblStandardSUHrs10.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs10.TabIndex = 26220;
@@ -1601,7 +1609,7 @@
             // lblScrap10
             // 
             this.lblScrap10.AutoSize = true;
-            this.lblScrap10.Location = new System.Drawing.Point(615, 408);
+            this.lblScrap10.Location = new System.Drawing.Point(615, 429);
             this.lblScrap10.Name = "lblScrap10";
             this.lblScrap10.Size = new System.Drawing.Size(0, 13);
             this.lblScrap10.TabIndex = 26221;
@@ -1610,7 +1618,7 @@
             // lblQuantity10
             // 
             this.lblQuantity10.AutoSize = true;
-            this.lblQuantity10.Location = new System.Drawing.Point(558, 408);
+            this.lblQuantity10.Location = new System.Drawing.Point(558, 429);
             this.lblQuantity10.Name = "lblQuantity10";
             this.lblQuantity10.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity10.TabIndex = 26222;
@@ -1619,7 +1627,7 @@
             // lblActualPPH10
             // 
             this.lblActualPPH10.AutoSize = true;
-            this.lblActualPPH10.Location = new System.Drawing.Point(503, 408);
+            this.lblActualPPH10.Location = new System.Drawing.Point(503, 429);
             this.lblActualPPH10.Name = "lblActualPPH10";
             this.lblActualPPH10.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH10.TabIndex = 26223;
@@ -1628,7 +1636,7 @@
             // lblStandardPPH10
             // 
             this.lblStandardPPH10.AutoSize = true;
-            this.lblStandardPPH10.Location = new System.Drawing.Point(447, 408);
+            this.lblStandardPPH10.Location = new System.Drawing.Point(447, 429);
             this.lblStandardPPH10.Name = "lblStandardPPH10";
             this.lblStandardPPH10.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH10.TabIndex = 26224;
@@ -1637,7 +1645,7 @@
             // lblCode10
             // 
             this.lblCode10.AutoSize = true;
-            this.lblCode10.Location = new System.Drawing.Point(345, 408);
+            this.lblCode10.Location = new System.Drawing.Point(345, 429);
             this.lblCode10.Name = "lblCode10";
             this.lblCode10.Size = new System.Drawing.Size(0, 13);
             this.lblCode10.TabIndex = 26225;
@@ -1646,7 +1654,7 @@
             // lblOperation10
             // 
             this.lblOperation10.AutoSize = true;
-            this.lblOperation10.Location = new System.Drawing.Point(295, 408);
+            this.lblOperation10.Location = new System.Drawing.Point(295, 429);
             this.lblOperation10.Name = "lblOperation10";
             this.lblOperation10.Size = new System.Drawing.Size(0, 13);
             this.lblOperation10.TabIndex = 26226;
@@ -1655,7 +1663,7 @@
             // lblMachine10
             // 
             this.lblMachine10.AutoSize = true;
-            this.lblMachine10.Location = new System.Drawing.Point(236, 408);
+            this.lblMachine10.Location = new System.Drawing.Point(236, 429);
             this.lblMachine10.Name = "lblMachine10";
             this.lblMachine10.Size = new System.Drawing.Size(0, 13);
             this.lblMachine10.TabIndex = 26227;
@@ -1664,7 +1672,7 @@
             // lblPart10
             // 
             this.lblPart10.AutoSize = true;
-            this.lblPart10.Location = new System.Drawing.Point(135, 408);
+            this.lblPart10.Location = new System.Drawing.Point(135, 429);
             this.lblPart10.Name = "lblPart10";
             this.lblPart10.Size = new System.Drawing.Size(0, 13);
             this.lblPart10.TabIndex = 26228;
@@ -1673,7 +1681,7 @@
             // lblTotalHours11
             // 
             this.lblTotalHours11.AutoSize = true;
-            this.lblTotalHours11.Location = new System.Drawing.Point(785, 432);
+            this.lblTotalHours11.Location = new System.Drawing.Point(785, 453);
             this.lblTotalHours11.Name = "lblTotalHours11";
             this.lblTotalHours11.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours11.TabIndex = 26229;
@@ -1682,7 +1690,7 @@
             // lblStandardSUHrs11
             // 
             this.lblStandardSUHrs11.AutoSize = true;
-            this.lblStandardSUHrs11.Location = new System.Drawing.Point(670, 432);
+            this.lblStandardSUHrs11.Location = new System.Drawing.Point(670, 453);
             this.lblStandardSUHrs11.Name = "lblStandardSUHrs11";
             this.lblStandardSUHrs11.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs11.TabIndex = 26230;
@@ -1691,7 +1699,7 @@
             // lblScrap11
             // 
             this.lblScrap11.AutoSize = true;
-            this.lblScrap11.Location = new System.Drawing.Point(615, 432);
+            this.lblScrap11.Location = new System.Drawing.Point(615, 453);
             this.lblScrap11.Name = "lblScrap11";
             this.lblScrap11.Size = new System.Drawing.Size(0, 13);
             this.lblScrap11.TabIndex = 26231;
@@ -1700,7 +1708,7 @@
             // lblQuantity11
             // 
             this.lblQuantity11.AutoSize = true;
-            this.lblQuantity11.Location = new System.Drawing.Point(558, 432);
+            this.lblQuantity11.Location = new System.Drawing.Point(558, 453);
             this.lblQuantity11.Name = "lblQuantity11";
             this.lblQuantity11.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity11.TabIndex = 26232;
@@ -1709,7 +1717,7 @@
             // lblActualPPH11
             // 
             this.lblActualPPH11.AutoSize = true;
-            this.lblActualPPH11.Location = new System.Drawing.Point(503, 432);
+            this.lblActualPPH11.Location = new System.Drawing.Point(503, 453);
             this.lblActualPPH11.Name = "lblActualPPH11";
             this.lblActualPPH11.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH11.TabIndex = 26233;
@@ -1718,7 +1726,7 @@
             // lblStandardPPH11
             // 
             this.lblStandardPPH11.AutoSize = true;
-            this.lblStandardPPH11.Location = new System.Drawing.Point(447, 432);
+            this.lblStandardPPH11.Location = new System.Drawing.Point(447, 453);
             this.lblStandardPPH11.Name = "lblStandardPPH11";
             this.lblStandardPPH11.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH11.TabIndex = 26234;
@@ -1727,7 +1735,7 @@
             // lblCode11
             // 
             this.lblCode11.AutoSize = true;
-            this.lblCode11.Location = new System.Drawing.Point(345, 432);
+            this.lblCode11.Location = new System.Drawing.Point(345, 453);
             this.lblCode11.Name = "lblCode11";
             this.lblCode11.Size = new System.Drawing.Size(0, 13);
             this.lblCode11.TabIndex = 26235;
@@ -1736,7 +1744,7 @@
             // lblOperation11
             // 
             this.lblOperation11.AutoSize = true;
-            this.lblOperation11.Location = new System.Drawing.Point(295, 432);
+            this.lblOperation11.Location = new System.Drawing.Point(295, 453);
             this.lblOperation11.Name = "lblOperation11";
             this.lblOperation11.Size = new System.Drawing.Size(0, 13);
             this.lblOperation11.TabIndex = 26236;
@@ -1745,7 +1753,7 @@
             // lblMachine11
             // 
             this.lblMachine11.AutoSize = true;
-            this.lblMachine11.Location = new System.Drawing.Point(236, 432);
+            this.lblMachine11.Location = new System.Drawing.Point(236, 453);
             this.lblMachine11.Name = "lblMachine11";
             this.lblMachine11.Size = new System.Drawing.Size(0, 13);
             this.lblMachine11.TabIndex = 26237;
@@ -1754,7 +1762,7 @@
             // lblPart11
             // 
             this.lblPart11.AutoSize = true;
-            this.lblPart11.Location = new System.Drawing.Point(135, 432);
+            this.lblPart11.Location = new System.Drawing.Point(135, 453);
             this.lblPart11.Name = "lblPart11";
             this.lblPart11.Size = new System.Drawing.Size(0, 13);
             this.lblPart11.TabIndex = 26238;
@@ -1763,7 +1771,7 @@
             // lblTotalHours12
             // 
             this.lblTotalHours12.AutoSize = true;
-            this.lblTotalHours12.Location = new System.Drawing.Point(785, 456);
+            this.lblTotalHours12.Location = new System.Drawing.Point(785, 477);
             this.lblTotalHours12.Name = "lblTotalHours12";
             this.lblTotalHours12.Size = new System.Drawing.Size(0, 13);
             this.lblTotalHours12.TabIndex = 26239;
@@ -1772,7 +1780,7 @@
             // lblStandardSUHrs12
             // 
             this.lblStandardSUHrs12.AutoSize = true;
-            this.lblStandardSUHrs12.Location = new System.Drawing.Point(670, 456);
+            this.lblStandardSUHrs12.Location = new System.Drawing.Point(670, 477);
             this.lblStandardSUHrs12.Name = "lblStandardSUHrs12";
             this.lblStandardSUHrs12.Size = new System.Drawing.Size(0, 13);
             this.lblStandardSUHrs12.TabIndex = 26240;
@@ -1781,7 +1789,7 @@
             // lblScrap12
             // 
             this.lblScrap12.AutoSize = true;
-            this.lblScrap12.Location = new System.Drawing.Point(615, 456);
+            this.lblScrap12.Location = new System.Drawing.Point(615, 477);
             this.lblScrap12.Name = "lblScrap12";
             this.lblScrap12.Size = new System.Drawing.Size(0, 13);
             this.lblScrap12.TabIndex = 26241;
@@ -1790,7 +1798,7 @@
             // lblQuantity12
             // 
             this.lblQuantity12.AutoSize = true;
-            this.lblQuantity12.Location = new System.Drawing.Point(558, 456);
+            this.lblQuantity12.Location = new System.Drawing.Point(558, 477);
             this.lblQuantity12.Name = "lblQuantity12";
             this.lblQuantity12.Size = new System.Drawing.Size(0, 13);
             this.lblQuantity12.TabIndex = 26242;
@@ -1799,7 +1807,7 @@
             // lblActualPPH12
             // 
             this.lblActualPPH12.AutoSize = true;
-            this.lblActualPPH12.Location = new System.Drawing.Point(503, 456);
+            this.lblActualPPH12.Location = new System.Drawing.Point(503, 477);
             this.lblActualPPH12.Name = "lblActualPPH12";
             this.lblActualPPH12.Size = new System.Drawing.Size(0, 13);
             this.lblActualPPH12.TabIndex = 26243;
@@ -1808,7 +1816,7 @@
             // lblStandardPPH12
             // 
             this.lblStandardPPH12.AutoSize = true;
-            this.lblStandardPPH12.Location = new System.Drawing.Point(447, 456);
+            this.lblStandardPPH12.Location = new System.Drawing.Point(447, 477);
             this.lblStandardPPH12.Name = "lblStandardPPH12";
             this.lblStandardPPH12.Size = new System.Drawing.Size(0, 13);
             this.lblStandardPPH12.TabIndex = 26244;
@@ -1817,7 +1825,7 @@
             // lblCode12
             // 
             this.lblCode12.AutoSize = true;
-            this.lblCode12.Location = new System.Drawing.Point(345, 456);
+            this.lblCode12.Location = new System.Drawing.Point(345, 477);
             this.lblCode12.Name = "lblCode12";
             this.lblCode12.Size = new System.Drawing.Size(0, 13);
             this.lblCode12.TabIndex = 26245;
@@ -1826,7 +1834,7 @@
             // lblOperation12
             // 
             this.lblOperation12.AutoSize = true;
-            this.lblOperation12.Location = new System.Drawing.Point(295, 456);
+            this.lblOperation12.Location = new System.Drawing.Point(295, 477);
             this.lblOperation12.Name = "lblOperation12";
             this.lblOperation12.Size = new System.Drawing.Size(0, 13);
             this.lblOperation12.TabIndex = 26246;
@@ -1835,7 +1843,7 @@
             // lblMachine12
             // 
             this.lblMachine12.AutoSize = true;
-            this.lblMachine12.Location = new System.Drawing.Point(236, 456);
+            this.lblMachine12.Location = new System.Drawing.Point(236, 477);
             this.lblMachine12.Name = "lblMachine12";
             this.lblMachine12.Size = new System.Drawing.Size(0, 13);
             this.lblMachine12.TabIndex = 26247;
@@ -1844,7 +1852,7 @@
             // lblPart12
             // 
             this.lblPart12.AutoSize = true;
-            this.lblPart12.Location = new System.Drawing.Point(135, 456);
+            this.lblPart12.Location = new System.Drawing.Point(135, 477);
             this.lblPart12.Name = "lblPart12";
             this.lblPart12.Size = new System.Drawing.Size(0, 13);
             this.lblPart12.TabIndex = 26248;
@@ -1852,7 +1860,7 @@
             // 
             // btnEdit2
             // 
-            this.btnEdit2.Location = new System.Drawing.Point(888, 211);
+            this.btnEdit2.Location = new System.Drawing.Point(888, 232);
             this.btnEdit2.Name = "btnEdit2";
             this.btnEdit2.Size = new System.Drawing.Size(45, 23);
             this.btnEdit2.TabIndex = 26249;
@@ -1862,7 +1870,7 @@
             // 
             // btnEdit3
             // 
-            this.btnEdit3.Location = new System.Drawing.Point(888, 235);
+            this.btnEdit3.Location = new System.Drawing.Point(888, 256);
             this.btnEdit3.Name = "btnEdit3";
             this.btnEdit3.Size = new System.Drawing.Size(45, 23);
             this.btnEdit3.TabIndex = 26250;
@@ -1872,7 +1880,7 @@
             // 
             // btnEdit4
             // 
-            this.btnEdit4.Location = new System.Drawing.Point(888, 259);
+            this.btnEdit4.Location = new System.Drawing.Point(888, 280);
             this.btnEdit4.Name = "btnEdit4";
             this.btnEdit4.Size = new System.Drawing.Size(45, 23);
             this.btnEdit4.TabIndex = 26251;
@@ -1882,7 +1890,7 @@
             // 
             // btnEdit5
             // 
-            this.btnEdit5.Location = new System.Drawing.Point(888, 283);
+            this.btnEdit5.Location = new System.Drawing.Point(888, 304);
             this.btnEdit5.Name = "btnEdit5";
             this.btnEdit5.Size = new System.Drawing.Size(45, 23);
             this.btnEdit5.TabIndex = 26252;
@@ -1892,7 +1900,7 @@
             // 
             // btnEdit6
             // 
-            this.btnEdit6.Location = new System.Drawing.Point(888, 307);
+            this.btnEdit6.Location = new System.Drawing.Point(888, 328);
             this.btnEdit6.Name = "btnEdit6";
             this.btnEdit6.Size = new System.Drawing.Size(45, 23);
             this.btnEdit6.TabIndex = 26253;
@@ -1902,7 +1910,7 @@
             // 
             // btnEdit7
             // 
-            this.btnEdit7.Location = new System.Drawing.Point(888, 331);
+            this.btnEdit7.Location = new System.Drawing.Point(888, 352);
             this.btnEdit7.Name = "btnEdit7";
             this.btnEdit7.Size = new System.Drawing.Size(45, 23);
             this.btnEdit7.TabIndex = 26254;
@@ -1912,7 +1920,7 @@
             // 
             // btnEdit8
             // 
-            this.btnEdit8.Location = new System.Drawing.Point(888, 355);
+            this.btnEdit8.Location = new System.Drawing.Point(888, 376);
             this.btnEdit8.Name = "btnEdit8";
             this.btnEdit8.Size = new System.Drawing.Size(45, 23);
             this.btnEdit8.TabIndex = 26255;
@@ -1922,7 +1930,7 @@
             // 
             // btnEdit9
             // 
-            this.btnEdit9.Location = new System.Drawing.Point(888, 379);
+            this.btnEdit9.Location = new System.Drawing.Point(888, 400);
             this.btnEdit9.Name = "btnEdit9";
             this.btnEdit9.Size = new System.Drawing.Size(45, 23);
             this.btnEdit9.TabIndex = 26256;
@@ -1932,7 +1940,7 @@
             // 
             // btnEdit10
             // 
-            this.btnEdit10.Location = new System.Drawing.Point(888, 403);
+            this.btnEdit10.Location = new System.Drawing.Point(888, 424);
             this.btnEdit10.Name = "btnEdit10";
             this.btnEdit10.Size = new System.Drawing.Size(45, 23);
             this.btnEdit10.TabIndex = 26257;
@@ -1942,7 +1950,7 @@
             // 
             // btnEdit11
             // 
-            this.btnEdit11.Location = new System.Drawing.Point(888, 427);
+            this.btnEdit11.Location = new System.Drawing.Point(888, 448);
             this.btnEdit11.Name = "btnEdit11";
             this.btnEdit11.Size = new System.Drawing.Size(45, 23);
             this.btnEdit11.TabIndex = 26258;
@@ -1952,7 +1960,7 @@
             // 
             // btnEdit12
             // 
-            this.btnEdit12.Location = new System.Drawing.Point(888, 451);
+            this.btnEdit12.Location = new System.Drawing.Point(888, 472);
             this.btnEdit12.Name = "btnEdit12";
             this.btnEdit12.Size = new System.Drawing.Size(45, 23);
             this.btnEdit12.TabIndex = 26259;
@@ -1962,7 +1970,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(483, 93);
+            this.btnLogin.Location = new System.Drawing.Point(483, 114);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 26260;
@@ -1973,7 +1981,7 @@
             // lblActualSUHrs12
             // 
             this.lblActualSUHrs12.AutoSize = true;
-            this.lblActualSUHrs12.Location = new System.Drawing.Point(729, 456);
+            this.lblActualSUHrs12.Location = new System.Drawing.Point(729, 477);
             this.lblActualSUHrs12.Name = "lblActualSUHrs12";
             this.lblActualSUHrs12.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs12.TabIndex = 26274;
@@ -1982,7 +1990,7 @@
             // lblActualSUHrs11
             // 
             this.lblActualSUHrs11.AutoSize = true;
-            this.lblActualSUHrs11.Location = new System.Drawing.Point(729, 432);
+            this.lblActualSUHrs11.Location = new System.Drawing.Point(729, 453);
             this.lblActualSUHrs11.Name = "lblActualSUHrs11";
             this.lblActualSUHrs11.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs11.TabIndex = 26273;
@@ -1991,7 +1999,7 @@
             // lblActualSUHrs10
             // 
             this.lblActualSUHrs10.AutoSize = true;
-            this.lblActualSUHrs10.Location = new System.Drawing.Point(729, 408);
+            this.lblActualSUHrs10.Location = new System.Drawing.Point(729, 429);
             this.lblActualSUHrs10.Name = "lblActualSUHrs10";
             this.lblActualSUHrs10.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs10.TabIndex = 26272;
@@ -2000,7 +2008,7 @@
             // lblActualSUHrs9
             // 
             this.lblActualSUHrs9.AutoSize = true;
-            this.lblActualSUHrs9.Location = new System.Drawing.Point(729, 384);
+            this.lblActualSUHrs9.Location = new System.Drawing.Point(729, 405);
             this.lblActualSUHrs9.Name = "lblActualSUHrs9";
             this.lblActualSUHrs9.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs9.TabIndex = 26271;
@@ -2009,7 +2017,7 @@
             // lblActualSUHrs8
             // 
             this.lblActualSUHrs8.AutoSize = true;
-            this.lblActualSUHrs8.Location = new System.Drawing.Point(729, 360);
+            this.lblActualSUHrs8.Location = new System.Drawing.Point(729, 381);
             this.lblActualSUHrs8.Name = "lblActualSUHrs8";
             this.lblActualSUHrs8.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs8.TabIndex = 26270;
@@ -2018,7 +2026,7 @@
             // lblActualSUHrs7
             // 
             this.lblActualSUHrs7.AutoSize = true;
-            this.lblActualSUHrs7.Location = new System.Drawing.Point(729, 336);
+            this.lblActualSUHrs7.Location = new System.Drawing.Point(729, 357);
             this.lblActualSUHrs7.Name = "lblActualSUHrs7";
             this.lblActualSUHrs7.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs7.TabIndex = 26269;
@@ -2027,7 +2035,7 @@
             // lblActualSUHrs6
             // 
             this.lblActualSUHrs6.AutoSize = true;
-            this.lblActualSUHrs6.Location = new System.Drawing.Point(729, 312);
+            this.lblActualSUHrs6.Location = new System.Drawing.Point(729, 333);
             this.lblActualSUHrs6.Name = "lblActualSUHrs6";
             this.lblActualSUHrs6.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs6.TabIndex = 26268;
@@ -2036,7 +2044,7 @@
             // lblActualSUHrs5
             // 
             this.lblActualSUHrs5.AutoSize = true;
-            this.lblActualSUHrs5.Location = new System.Drawing.Point(729, 288);
+            this.lblActualSUHrs5.Location = new System.Drawing.Point(729, 309);
             this.lblActualSUHrs5.Name = "lblActualSUHrs5";
             this.lblActualSUHrs5.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs5.TabIndex = 26267;
@@ -2045,7 +2053,7 @@
             // lblActualSUHrs4
             // 
             this.lblActualSUHrs4.AutoSize = true;
-            this.lblActualSUHrs4.Location = new System.Drawing.Point(729, 264);
+            this.lblActualSUHrs4.Location = new System.Drawing.Point(729, 285);
             this.lblActualSUHrs4.Name = "lblActualSUHrs4";
             this.lblActualSUHrs4.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs4.TabIndex = 26266;
@@ -2054,7 +2062,7 @@
             // lblActualSUHrs3
             // 
             this.lblActualSUHrs3.AutoSize = true;
-            this.lblActualSUHrs3.Location = new System.Drawing.Point(729, 240);
+            this.lblActualSUHrs3.Location = new System.Drawing.Point(729, 261);
             this.lblActualSUHrs3.Name = "lblActualSUHrs3";
             this.lblActualSUHrs3.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs3.TabIndex = 26265;
@@ -2063,7 +2071,7 @@
             // lblActualSUHrs2
             // 
             this.lblActualSUHrs2.AutoSize = true;
-            this.lblActualSUHrs2.Location = new System.Drawing.Point(729, 216);
+            this.lblActualSUHrs2.Location = new System.Drawing.Point(729, 237);
             this.lblActualSUHrs2.Name = "lblActualSUHrs2";
             this.lblActualSUHrs2.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs2.TabIndex = 26264;
@@ -2072,7 +2080,7 @@
             // lblActualSUHrs1
             // 
             this.lblActualSUHrs1.AutoSize = true;
-            this.lblActualSUHrs1.Location = new System.Drawing.Point(729, 192);
+            this.lblActualSUHrs1.Location = new System.Drawing.Point(729, 213);
             this.lblActualSUHrs1.Name = "lblActualSUHrs1";
             this.lblActualSUHrs1.Size = new System.Drawing.Size(0, 13);
             this.lblActualSUHrs1.TabIndex = 26261;
@@ -2080,7 +2088,7 @@
             // 
             // tbActualSetupHrs
             // 
-            this.tbActualSetupHrs.Location = new System.Drawing.Point(714, 159);
+            this.tbActualSetupHrs.Location = new System.Drawing.Point(714, 180);
             this.tbActualSetupHrs.Name = "tbActualSetupHrs";
             this.tbActualSetupHrs.Size = new System.Drawing.Size(50, 20);
             this.tbActualSetupHrs.TabIndex = 26262;
@@ -2089,7 +2097,7 @@
             // lblActualSetupHrs
             // 
             this.lblActualSetupHrs.AutoSize = true;
-            this.lblActualSetupHrs.Location = new System.Drawing.Point(714, 143);
+            this.lblActualSetupHrs.Location = new System.Drawing.Point(714, 164);
             this.lblActualSetupHrs.Name = "lblActualSetupHrs";
             this.lblActualSetupHrs.Size = new System.Drawing.Size(57, 13);
             this.lblActualSetupHrs.TabIndex = 26263;
@@ -2098,7 +2106,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(721, 130);
+            this.label13.Location = new System.Drawing.Point(721, 151);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 13);
             this.label13.TabIndex = 26275;
@@ -2107,7 +2115,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(657, 130);
+            this.label14.Location = new System.Drawing.Point(657, 151);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(50, 13);
             this.label14.TabIndex = 26276;
@@ -2116,7 +2124,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(437, 128);
+            this.label1.Location = new System.Drawing.Point(437, 151);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 26277;
@@ -2125,7 +2133,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(498, 130);
+            this.label2.Location = new System.Drawing.Point(498, 151);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 26278;
@@ -2134,7 +2142,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(788, 157);
+            this.pictureBox1.Location = new System.Drawing.Point(788, 178);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 27);
             this.pictureBox1.TabIndex = 26279;
@@ -2143,7 +2151,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(829, 143);
+            this.label3.Location = new System.Drawing.Point(829, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 26280;
@@ -2152,7 +2160,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(842, 157);
+            this.pictureBox2.Location = new System.Drawing.Point(842, 178);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(25, 27);
             this.pictureBox2.TabIndex = 26281;
@@ -2161,7 +2169,7 @@
             // lblEfficiency1
             // 
             this.lblEfficiency1.AutoSize = true;
-            this.lblEfficiency1.Location = new System.Drawing.Point(830, 192);
+            this.lblEfficiency1.Location = new System.Drawing.Point(830, 213);
             this.lblEfficiency1.Name = "lblEfficiency1";
             this.lblEfficiency1.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency1.TabIndex = 26282;
@@ -2170,7 +2178,7 @@
             // lblEfficiency2
             // 
             this.lblEfficiency2.AutoSize = true;
-            this.lblEfficiency2.Location = new System.Drawing.Point(830, 216);
+            this.lblEfficiency2.Location = new System.Drawing.Point(830, 237);
             this.lblEfficiency2.Name = "lblEfficiency2";
             this.lblEfficiency2.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency2.TabIndex = 26283;
@@ -2179,7 +2187,7 @@
             // lblEfficiency12
             // 
             this.lblEfficiency12.AutoSize = true;
-            this.lblEfficiency12.Location = new System.Drawing.Point(830, 456);
+            this.lblEfficiency12.Location = new System.Drawing.Point(830, 477);
             this.lblEfficiency12.Name = "lblEfficiency12";
             this.lblEfficiency12.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency12.TabIndex = 26293;
@@ -2188,7 +2196,7 @@
             // lblEfficiency11
             // 
             this.lblEfficiency11.AutoSize = true;
-            this.lblEfficiency11.Location = new System.Drawing.Point(830, 432);
+            this.lblEfficiency11.Location = new System.Drawing.Point(830, 453);
             this.lblEfficiency11.Name = "lblEfficiency11";
             this.lblEfficiency11.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency11.TabIndex = 26292;
@@ -2197,7 +2205,7 @@
             // lblEfficiency10
             // 
             this.lblEfficiency10.AutoSize = true;
-            this.lblEfficiency10.Location = new System.Drawing.Point(830, 408);
+            this.lblEfficiency10.Location = new System.Drawing.Point(830, 429);
             this.lblEfficiency10.Name = "lblEfficiency10";
             this.lblEfficiency10.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency10.TabIndex = 26291;
@@ -2206,7 +2214,7 @@
             // lblEfficiency9
             // 
             this.lblEfficiency9.AutoSize = true;
-            this.lblEfficiency9.Location = new System.Drawing.Point(830, 384);
+            this.lblEfficiency9.Location = new System.Drawing.Point(830, 405);
             this.lblEfficiency9.Name = "lblEfficiency9";
             this.lblEfficiency9.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency9.TabIndex = 26290;
@@ -2215,7 +2223,7 @@
             // lblEfficiency8
             // 
             this.lblEfficiency8.AutoSize = true;
-            this.lblEfficiency8.Location = new System.Drawing.Point(830, 360);
+            this.lblEfficiency8.Location = new System.Drawing.Point(830, 381);
             this.lblEfficiency8.Name = "lblEfficiency8";
             this.lblEfficiency8.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency8.TabIndex = 26289;
@@ -2224,7 +2232,7 @@
             // lblEfficiency7
             // 
             this.lblEfficiency7.AutoSize = true;
-            this.lblEfficiency7.Location = new System.Drawing.Point(830, 336);
+            this.lblEfficiency7.Location = new System.Drawing.Point(830, 357);
             this.lblEfficiency7.Name = "lblEfficiency7";
             this.lblEfficiency7.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency7.TabIndex = 26288;
@@ -2233,7 +2241,7 @@
             // lblEfficiency6
             // 
             this.lblEfficiency6.AutoSize = true;
-            this.lblEfficiency6.Location = new System.Drawing.Point(830, 312);
+            this.lblEfficiency6.Location = new System.Drawing.Point(830, 333);
             this.lblEfficiency6.Name = "lblEfficiency6";
             this.lblEfficiency6.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency6.TabIndex = 26287;
@@ -2242,7 +2250,7 @@
             // lblEfficiency5
             // 
             this.lblEfficiency5.AutoSize = true;
-            this.lblEfficiency5.Location = new System.Drawing.Point(830, 288);
+            this.lblEfficiency5.Location = new System.Drawing.Point(830, 309);
             this.lblEfficiency5.Name = "lblEfficiency5";
             this.lblEfficiency5.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency5.TabIndex = 26286;
@@ -2251,7 +2259,7 @@
             // lblEfficiency4
             // 
             this.lblEfficiency4.AutoSize = true;
-            this.lblEfficiency4.Location = new System.Drawing.Point(830, 264);
+            this.lblEfficiency4.Location = new System.Drawing.Point(830, 285);
             this.lblEfficiency4.Name = "lblEfficiency4";
             this.lblEfficiency4.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency4.TabIndex = 26285;
@@ -2261,7 +2269,7 @@
             // 
             this.lblEfficiency3.AutoSize = true;
             this.lblEfficiency3.BackColor = System.Drawing.SystemColors.Control;
-            this.lblEfficiency3.Location = new System.Drawing.Point(830, 240);
+            this.lblEfficiency3.Location = new System.Drawing.Point(830, 261);
             this.lblEfficiency3.Name = "lblEfficiency3";
             this.lblEfficiency3.Size = new System.Drawing.Size(0, 13);
             this.lblEfficiency3.TabIndex = 26284;
@@ -2269,7 +2277,7 @@
             // 
             // btnSignOut
             // 
-            this.btnSignOut.Location = new System.Drawing.Point(718, 93);
+            this.btnSignOut.Location = new System.Drawing.Point(718, 114);
             this.btnSignOut.Name = "btnSignOut";
             this.btnSignOut.Size = new System.Drawing.Size(75, 23);
             this.btnSignOut.TabIndex = 26294;
@@ -2279,7 +2287,7 @@
             // btnCancelEdit
             // 
             this.btnCancelEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelEdit.Location = new System.Drawing.Point(940, 331);
+            this.btnCancelEdit.Location = new System.Drawing.Point(940, 352);
             this.btnCancelEdit.Name = "btnCancelEdit";
             this.btnCancelEdit.Size = new System.Drawing.Size(23, 143);
             this.btnCancelEdit.TabIndex = 26296;
@@ -2287,11 +2295,62 @@
             this.btnCancelEdit.UseVisualStyleBackColor = true;
             this.btnCancelEdit.Click += new System.EventHandler(this.btnEditCancel_Click);
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fILEToolStripMenuItem,
+            this.eDITToolStripMenuItem,
+            this.vIEWToolStripMenuItem,
+            this.fORMATToolStripMenuItem,
+            this.tOOLSToolStripMenuItem,
+            this.hELPToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(974, 24);
+            this.menuStrip1.TabIndex = 26297;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fILEToolStripMenuItem
+            // 
+            this.fILEToolStripMenuItem.Name = "fILEToolStripMenuItem";
+            this.fILEToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.fILEToolStripMenuItem.Text = "FILE";
+            // 
+            // eDITToolStripMenuItem
+            // 
+            this.eDITToolStripMenuItem.Name = "eDITToolStripMenuItem";
+            this.eDITToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.eDITToolStripMenuItem.Text = "EDIT";
+            // 
+            // vIEWToolStripMenuItem
+            // 
+            this.vIEWToolStripMenuItem.Name = "vIEWToolStripMenuItem";
+            this.vIEWToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.vIEWToolStripMenuItem.Text = "VIEW";
+            // 
+            // fORMATToolStripMenuItem
+            // 
+            this.fORMATToolStripMenuItem.Name = "fORMATToolStripMenuItem";
+            this.fORMATToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.fORMATToolStripMenuItem.Text = "FORMAT";
+            // 
+            // tOOLSToolStripMenuItem
+            // 
+            this.tOOLSToolStripMenuItem.Name = "tOOLSToolStripMenuItem";
+            this.tOOLSToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.tOOLSToolStripMenuItem.Text = "TOOLS";
+            // 
+            // hELPToolStripMenuItem
+            // 
+            this.hELPToolStripMenuItem.Name = "hELPToolStripMenuItem";
+            this.hELPToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.hELPToolStripMenuItem.Text = "HELP";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 482);
+            this.ClientSize = new System.Drawing.Size(974, 502);
             this.Controls.Add(this.lblEfficiency1);
             this.Controls.Add(this.btnCancelEdit);
             this.Controls.Add(this.lblEfficiency2);
@@ -2514,11 +2573,15 @@
             this.Controls.Add(this.tbOperation);
             this.Controls.Add(this.tbPart);
             this.Controls.Add(this.tbWorkOrder);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "DAILY PRODUCTION REGISTRY";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2748,6 +2811,13 @@
         private System.Windows.Forms.Label lblEfficiency3;
         private System.Windows.Forms.Button btnSignOut;
         private System.Windows.Forms.Button btnCancelEdit;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eDITToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem vIEWToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fORMATToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tOOLSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hELPToolStripMenuItem;
     }
 }
 
